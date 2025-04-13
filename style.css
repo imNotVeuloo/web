@@ -1,0 +1,299 @@
+/* SecureLife Insurance Co. - Dark Mode Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #111;
+    color: #f0f0f0;
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    padding: 0 1.5rem;
+  }
+  
+  header {
+    background-color: #1a1a1a;
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2.8rem;
+    color: #00ffcc;
+  }
+  
+  header p {
+    color: #ccc;
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 1.2rem;
+    flex-wrap: wrap;
+  }
+  
+  nav ul li {
+    margin: 0.5rem 1rem;
+  }
+  
+  nav ul li a {
+    color: #00ffcc;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: #00ccaa;
+  }
+  
+  section {
+    margin: 3rem 0;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    color: #00ffcc;
+    margin-bottom: 1rem;
+    border-left: 5px solid #00ffcc;
+    padding-left: 0.5rem;
+  }
+  
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  ul li {
+    margin-bottom: 0.8rem;
+    font-size: 1.1rem;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    background: #1e1e1e;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,255,204,0.1);
+  }
+  
+  input,
+  textarea {
+    background: #222;
+    border: 1px solid #444;
+    border-radius: 4px;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+  
+  button {
+    background: #00ffcc;
+    color: #000;
+    border: none;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background: #00ccaa;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #1a1a1a;
+    color: #888;
+    margin-top: 3rem;
+    font-size: 0.9rem;
+  }
+  
+  @media (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    section {
+      padding: 0 1rem;
+    }
+  
+    header h1 {
+      font-size: 2rem;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
+
+  .faq-button {
+    text-align: center;
+    margin: 2rem 0;
+  }
+  
+  .faq-button button {
+    background-color: #00ffa2;
+    color: #000000;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .faq-button button:hover {
+    background-color: #00d98a;
+  }
+  
+  /* FAQ PAGE STYLE EXTENSIONS */
+
+/* Style the FAQ page header */
+header h1 {
+  font-size: 2.5rem;
+  color: #00ffa2;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+header p {
+  text-align: center;
+  color: #aaa;
+  margin-bottom: 2rem;
+}
+
+/* FAQ sections */
+section {
+  margin: 2rem auto;
+  max-width: 800px;
+  background-color: #1a1a1a;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 255, 162, 0.1);
+}
+
+section h2 {
+  color: #00ffa2;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #333;
+  padding-bottom: 0.5rem;
+}
+
+section h3 {
+  color: #00d98a;
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+}
+
+section p {
+  color: #ccc;
+  margin-top: 0.5rem;
+  line-height: 1.6;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 3rem;
+  padding: 1.5rem 0;
+  background-color: #1e1e1e;
+  color: #666;
+}
+
+/* Quote form section */
+#quote {
+  background-color: #1a1a1a;
+  padding: 3rem 2rem;
+  margin: 4rem auto;
+  max-width: 800px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 255, 162, 0.1);
+}
+
+#quote h2 {
+  color: #00ffa2;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+#quote form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+#quote input,
+#quote textarea {
+  background-color: #2d2d2d;
+  border: 2px solid #333;
+  border-radius: 8px;
+  padding: 12px;
+  color: #ddd;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+#quote input:focus,
+#quote textarea:focus {
+  border-color: #00ffa2;
+  outline: none;
+}
+
+/* Submit button inside the form */
+#quote button {
+  background-color: #00ffa2;
+  color: #000;
+  padding: 14px 30px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+#quote button:hover {
+  background-color: #00d98a;
+  transform: scale(1.1);
+}
+
+
+@media (max-width: 768px) {
+  #quote {
+    padding: 2rem;
+  }
+
+  #quote h2 {
+    font-size: 1.8rem;
+  }
+
+  #quote button {
+    font-size: 1rem;
+    padding: 12px 24px;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
