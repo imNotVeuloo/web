@@ -1,1 +1,1 @@
-Web 1st launch https://github.com/imNotVeuloo/web.git
+Web 1st launch https://imnotveuloo.github.io/web/
